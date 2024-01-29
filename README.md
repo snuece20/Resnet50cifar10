@@ -1,6 +1,6 @@
 # ResNet50 implementing with cifar10 data
   
-## introduction
+## Introduction
 This repository is Pytorch implenmentation of ResNet50, based on paper "arXiv:1512.03385".
   
 ## Directory  
