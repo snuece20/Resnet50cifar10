@@ -1,10 +1,10 @@
-<img width="401" alt="image" src="https://github.com/snuece20/Resnet50cifar10/assets/157671957/4908fb4f-377f-470f-a411-0bd0f953ca92"># ResNet50 implementing with cifar10 data
+# ResNet50 implementing with cifar10 data
 
-#introduction
-This repository is Pytorch implenmentation of ResNet50. Modeling code is 
+##introduction
+This repository is Pytorch implenmentation of ResNet50. 
 
-#Directory
-Root
+##Directory
+###Root
 
 The ${Root} is described as below.
 
@@ -18,7 +18,7 @@ data contains cifa10 batches (test batch and batches for training) which loaded 
 dataset contains data loading codes
 main contains codes for training and testing cifar10 data with ResNet50 network. output data(trained weights and test result also saved in main directory)
 
-data
+###data
 The data directory is configured as shown in the structure below.
 
 ${ROOT}  
@@ -35,7 +35,7 @@ ${ROOT}
 
 If you run the cifar.py and cifar_test.py files in the dataset directory, the above structure is automatically formed.
 
-dataset
+###dataset
 
 ${ROOT}  
 |-- dataset
@@ -45,7 +45,7 @@ ${ROOT}
 
 You can load cifar10 datas for training and testing by implementing cifar.py and cifar_test.py files.
 
-main
+###main
 ${ROOT}  
 |-- dataset
 |   |-- __pycache__
@@ -58,27 +58,28 @@ ${ROOT}
 If you run the train.py file to train, the trained weights are stored in the model_weights.pth file.
 __init__.py file causes the directory to be considered a package.
 
-Running ResNet50
-Start
+##Running ResNet50
+###Start
 Install PyTorch and Python
 Activate torch by below code
 conda activate torch
 
-Train
+###Train
 Run below code to train ResNet50
 python train.py
 
 If implementing is finished the output will be "Finished Training" and the trained weights are stored in the model_weights.pth file.
 
-Test
+###Test
 Run below code to test outcome of ResNet50 model trained by cifar10 data.
 python test.py
 
-Results
+##Results
 Results ouput of testing should be "Accuracy of the network on the test images : 94.98%"
 
 
 The results are more accurate than those presented in the paper.
+<img width="401" alt="image" src="https://github.com/snuece20/Resnet50cifar10/assets/157671957/4908fb4f-377f-470f-a411-0bd0f953ca92">
 The paper doesn't provide the number of datapoints used for normalization, so our code uses a normalization method optimized for CIFAR10. It is assumed that this is the reason for the difference.
 
 
