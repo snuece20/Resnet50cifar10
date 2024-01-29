@@ -4,9 +4,9 @@
 This repository is Pytorch implenmentation of ResNet50. 
 
 ## Directory
-### Root
+### ResNet50p
 
-The ${Root} is described as below.
+The ${ROOT} is described as below.
 
 ${ROOT}  
 |-- data  
@@ -18,7 +18,7 @@ data contains cifa10 batches (test batch and batches for training) which loaded 
 dataset contains data loading codes
 main contains codes for training and testing cifar10 data with ResNet50 network. output data(trained weights and test result also saved in main directory)
 
-### data
+### Data
 The data directory is configured as shown in the structure below.
 
 ${ROOT}  
@@ -35,7 +35,7 @@ ${ROOT}
 
 If you run the cifar.py and cifar_test.py files in the dataset directory, the above structure is automatically formed.
 
-### dataset
+### Dataset
 
 ${ROOT}  
 |-- dataset
@@ -45,9 +45,9 @@ ${ROOT}
 
 You can load cifar10 datas for training and testing by implementing cifar.py and cifar_test.py files.
 
-### main
+### Main
 ${ROOT}  
-|-- dataset
+|-- main
 |   |-- __pycache__
 |   |-- __init__.py
 |   |-- model_weights.pth
