@@ -97,7 +97,7 @@ Results ouput of testing should be "Accuracy of the network on the test images :
 * The results are more accurate than those presented in the paper.
   
 <p align="center"><img width="401" alt="image" src="https://github.com/snuece20/Resnet50cifar10/assets/157671957/4908fb4f-377f-470f-a411-0bd0f953ca92"></p>  
-<p align="center"> _Image from_ _(arXiv:1512.03385)_ </p>  
+<p align="center"> _Image from "arXiv:1512.03385"_ </p>  
 
 
 * The paper doesn't provide the number of datapoints used for normalization, so our code uses a normalization method optimized for CIFAR10. It is assumed that this is the reason for the difference.  
