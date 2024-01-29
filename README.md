@@ -8,12 +8,12 @@ This repository is Pytorch implenmentation of ResNet50.
   
 The ${ROOT} is described as below.  
   
-'''
+```
 ${ROOT}  
 |-- data  
 |-- dataset  
 |-- main  
-'''
+```
   
 * data contains cifa10 batches (test batch and batches for training) which loaded from datasetcodes.  
 * dataset contains data loading codes.  
@@ -22,7 +22,7 @@ ${ROOT}
 ### Data   
 The data directory is configured as shown in the structure below.  
   
-'''
+```
 ${ROOT}  
 |-- data  
 |   |-- cifar-10-batches-py  
@@ -34,26 +34,26 @@ ${ROOT}
 |   |   |-- data_batch_5  
 |   |   |-- test_batch  
 |   |-- cifar-10-python.tar.gz  
-'''
+```
   
 * If you run the cifar.py and cifar_test.py files in the dataset directory, the above structure is automatically formed.  
 
 ### Dataset  
   
-'''
+```
 ${ROOT}  
 |-- dataset  
 |   |-- __pycache__  
 |   |-- cifar_test.py  
 |   |-- cifar.py  
-'''
+```
   
 
 * You can load cifar10 datas for training and testing by implementing cifar.py and cifar_test.py files.  
 
 ### Main  
 
-'''
+```
 ${ROOT}  
 |-- main  
 |   |-- __pycache__  
@@ -62,7 +62,7 @@ ${ROOT}
 |   |-- model.py  
 |   |-- test.py  
 |   |-- train.py  
-'''
+```
   
  
 * If you run the train.py file to train, the trained weights are stored in the model_weights.pth file.  
@@ -72,23 +72,23 @@ ${ROOT}
 ### Start  
 * Install PyTorch and Python  
 Activate torch by below code
-'''
+```
 conda activate torch
-'''
+```
   
 ### Train  
 Run below code to train ResNet50  
-'''
+```python
 python train.py  
-;;;
+```
   
 * If implementing is finished the output will be "Finished Training" and the trained weights are stored in the model_weights.pth file.  
 
 ### Test  
 Run below code to test outcome of ResNet50 model trained by cifar10 data.  
-'''
+```python
 python test.py  
-'''
+```
 
 ## Results  
 Results ouput of testing should be "Accuracy of the network on the test images : 94.98%"  
