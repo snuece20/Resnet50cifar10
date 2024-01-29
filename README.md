@@ -100,7 +100,15 @@ Results ouput of testing should be "Accuracy of the network on the test images :
 <p align="center"> Image from "arXiv:1512.03385" </p>  
 
 
-* The paper doesn't provide the number of datapoints used for normalization, so our code uses a normalization method optimized for CIFAR10. It is assumed that this is the reason for the difference.  
+* The paper doesn't provide the number of datapoints used for normalization, so our code uses a normalization method optimized for CIFAR10. It is assumed that this is the reason for the difference.
+
+## Reference  
+@InProceedings{IEEE_2015_CVPR,  
+author = {Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun},  
+title = {Deep Residual Learning for Image Recognition},  
+booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},  
+year = {2015}  
+}
 
 
  
