@@ -70,14 +70,14 @@ ${ROOT}
     
 ## Running ResNet50  
 ### Start  
-* Install PyTorch and Python  
-Activate torch by below code
+* Install PyTorch and Python.  
+Activate torch by below code.
 ```
 conda activate torch
 ```
   
 ### Train  
-Run below code to train ResNet50  
+Run below code to train ResNet50.  
 ```python
 python train.py  
 ```
