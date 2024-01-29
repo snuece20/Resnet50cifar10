@@ -23,15 +23,15 @@ The data directory is configured as shown in the structure below.
 
 ${ROOT}  
 |-- data  
-|   |-- cifar-10-batches-py
-|   |   |-- batches.meta
-|   |   |-- data_batch_1
-|   |   |-- data_batch_2
-|   |   |-- data_batch_3
-|   |   |-- data_batch_4
-|   |   |-- data_batch_5
-|   |   |-- test_batch
-|   |-- cifar-10-python.tar.gz
+|   |-- cifar-10-batches-py  
+|   |   |-- batches.meta  
+|   |   |-- data_batch_1  
+|   |   |-- data_batch_2  
+|   |   |-- data_batch_3  
+|   |   |-- data_batch_4  
+|   |   |-- data_batch_5  
+|   |   |-- test_batch  
+|   |-- cifar-10-python.tar.gz  
 
 If you run the cifar.py and cifar_test.py files in the dataset directory, the above structure is automatically formed.
 
