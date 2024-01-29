@@ -79,8 +79,10 @@ python test.py
 Results ouput of testing should be "Accuracy of the network on the test images : 94.98%"  
 
 
-* The results are more accurate than those presented in the paper.  
-<img width="401" alt="image" src="https://github.com/snuece20/Resnet50cifar10/assets/157671957/4908fb4f-377f-470f-a411-0bd0f953ca92">  
+* The results are more accurate than those presented in the paper.
+  
+<img width="401" alt="image" src="https://github.com/snuece20/Resnet50cifar10/assets/157671957/4908fb4f-377f-470f-a411-0bd0f953ca92">
+
 * The paper doesn't provide the number of datapoints used for normalization, so our code uses a normalization method optimized for CIFAR10. It is assumed that this is the reason for the difference.  
 
 
