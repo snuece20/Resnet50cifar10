@@ -16,7 +16,7 @@ ${ROOT}
   
 data contains cifa10 batches (test batch and batches for training) which loaded from datasetcodes.  
 dataset contains data loading codes.  
-main contains codes for training and testing cifar10 data with ResNet50 network. output data(trained weights and test result also saved in main directory)  
+main contains codes for training and testing cifar10 data with ResNet50 network. output data(trained weights and test result) also saved in main directory.  
    
 ### Data   
 The data directory is configured as shown in the structure below.  
